@@ -1,0 +1,59 @@
+body {
+    background-color: antiquewhite;
+}
+
+#memeTitle {
+    text-align: center;
+}
+
+#memeForm {
+    margin-bottom: 10px;
+    background-color: ivory;
+}
+#memeForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+#memeForm label input {
+    width: 100%;
+}
+#memeForm button {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+}
+
+#memeContainer div {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    vertical-align: top;
+    float: left;
+}
+#memeContainer div span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-family: cursive, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    color: black;
+    background-color: snow;
+    opacity: 65%;
+}
+
+.top {
+    top: 0;
+    margin-top: 10px;
+}
+.bottom {
+    bottom: 0;
+    margin-bottom: 10px;
+}
